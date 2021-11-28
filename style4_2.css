@@ -1,5 +1,7 @@
-html {
+@media all {html, body {
   width: 100%;
+  margin:0;
+  padding:0;
 }
 /*--------------------Ф О Р М А-------------------------*/
 form{position:relative;
@@ -270,4 +272,4 @@ color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;}
-.lastone ul li a img {filter: invert(1);}
+.lastone ul li a img {filter: invert(1);}}
